@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+
+
+
+/* debug rules */
+header{
+    background-color: blueviolet;
+    height: 50px;
+}
+
+.hero{
+    background-color: aqua;
+    height: 400px;
+}
+
+main{
+    background-color: yellow;
+    height: 800px;
+}
+
+footer{
+    background-color: grey;
+    height: 200px;
+}
