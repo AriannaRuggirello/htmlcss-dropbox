@@ -13,7 +13,7 @@ button{
     padding: 5px;
 }
 
-.hero-container{
+.container{
     width: 60%;
     margin: 0 auto;
 }
@@ -44,7 +44,7 @@ header{
 .hero{
     background-color: #B4D0E7;
     min-height: 400px;
-    padding-top: 30px;
+    padding-top: 30px;  
 }
 
 h1{
@@ -53,11 +53,12 @@ h1{
 
 .hero-row{    
     display: flex;
-    justify-content: space-between;     
+    justify-content: space-between;  
+    
 }
 
 .hero-info{
-    width: 50%;
+    width: 50%;  
     
 }
 
@@ -73,24 +74,81 @@ h1{
     max-width: 100%;
 }
 
+/* price section */
+.price-intro{
+    padding: 50px 0;
+    line-height: 50px;   
+}
+
+.price-row{  
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-col{
+    width: calc(100%/3) - 20px;
+    margin: 0 10px;
+    border: 1px solid grey;
+    min-height: 300px;
+    line-height: 30px;  
+    padding: 0 15px; 
+}
+
+li{
+    list-style: none;
+    /* margin: 10px 0; */
+}
+
+.single-plan span{
+    /* width: 100%; */
+    text-align: center;
+    
+
+}
+
+.grey{
+    color: grey;
+}
 
 
+
+
+/* footer rules */
+footer{
+    background-color: black;
+}
+
+.footer-col{
+    padding: 50px 0;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col div{
+    line-height: 30px;
+}
+
+.footer-col h2,a,span{
+    color: white;
+}
+
+.footer-col h2{
+    padding-bottom: 20px;
+}
+
+.footer-col span{
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
 
 
 
 /* debug rules */
+
 /* header{
     background-color: blueviolet;
 } */
 
-
-
-main{
-    background-color: yellow;
-    height: 800px;
-}
-
-footer{
-    background-color: grey;
-    height: 200px;
+.price-row{
+    background-color: blueviolet;
 }
