@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 
 button{
-    padding: 5px;
+    padding: 10px;
 }
 
 .container{
@@ -28,6 +27,11 @@ header{
     padding: 10px;
 }
 
+header a{
+    text-decoration: none;
+    color: black;
+}
+
 .nav-left,.nav-right{
    display: flex;
    align-items: center;
@@ -35,9 +39,15 @@ header{
 }
 
 .blue-button{
+    margin: 20px 0;
     background-color: blue;
     color: white;
     border-style: none;
+}
+
+.fa-arrow-down{
+    padding: 20px 0;
+    font-size: 30px;
 }
 
 /* hero rules */
@@ -49,6 +59,7 @@ header{
 
 h1{
     font-size: 50px;
+    margin-bottom: 20px;
 }    
 
 .hero-row{    
@@ -122,8 +133,8 @@ li{
     padding-right: 30px;
 }
 
-.white-button{
-    background-color: white;
+.partner p{
+    margin: 20px 0;
 }
 
 /* dropbox business section */
@@ -135,9 +146,8 @@ li{
 }
 
 .funcitonability ul{
-width: calc( (100%/3) - 20px);
-margin: 0 10px;
-padding: 30px 20px;
+    width: calc(100%/3);
+    padding: 30px 20px;
 }
 
 .funcitonability img{
@@ -148,7 +158,78 @@ padding: 30px 20px;
     margin: 20px 0;
 }
 
+/* clients section */
+.client-intro{   
+    width: 60%;
+    padding: 50px 0;    
+}
 
+.client-intro a{
+    color: black;
+    
+}
+
+.client-row{
+    background-color: #B4D0E7;  
+    display: flex;
+}
+
+.client-col{
+    width: calc(100%/3);
+    background-color:  #F5F5F5;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.client-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+
+}
+
+.white-button{
+    background-color: white;
+    border-style: none;
+}
+
+.square{
+    width: calc(100%/2);         
+}
+
+.green{
+    background-color: #A2D39B;
+}
+
+.brown{
+    background-color: #61082B;
+}
+
+.light-blue{
+    background-color: #0093CE;
+}
+
+.red{
+    background-color: #FF1C1C;
+}
+
+.dark-red{
+    background-color: darkred;
+}
+
+.indigo{
+    background-color: lightslategrey;
+}
+
+.blue{
+    background-color: darkblue;
+}
+
+.yellow{
+    background-color: yellow;
+}
 /* footer rules */
 footer{
     background-color: black;
@@ -166,6 +247,7 @@ footer{
 
 .footer-col h2,a{
     color: white;
+    text-decoration: none;
 }
 
 .footer-col h2{
