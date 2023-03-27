@@ -260,6 +260,23 @@ footer{
     color: white;
 }
 
+/* faq section */
+.faq-section{
+    padding: 70px 0;
+}
+
+.faq-section h2{
+    padding-bottom: 40px;
+    border-bottom: 1px solid darkgray;
+}
+
+.faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;   
+    border-bottom: 1px solid darkgray;
+}
 
 
 /* debug rules */
