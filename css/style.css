@@ -13,6 +13,11 @@ button{
     padding: 5px;
 }
 
+.hero-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* header rules */
 
 header{
@@ -35,16 +40,50 @@ header{
     border-style: none;
 }
 
+/* hero rules */
+.hero{
+    background-color: #B4D0E7;
+    min-height: 400px;
+    padding-top: 30px;
+}
+
+h1{
+    font-size: 50px;
+}    
+
+.hero-row{    
+    display: flex;
+    justify-content: space-between;     
+}
+
+.hero-info{
+    width: 50%;
+    
+}
+
+.hero-info span{
+    display: block;
+}
+
+.hero-image{
+    width: 60%;
+}
+
+.hero-image img{
+    max-width: 100%;
+}
+
+
+
+
+
 
 /* debug rules */
 /* header{
     background-color: blueviolet;
 } */
 
-.hero{
-    background-color: aqua;
-    height: 400px;
-}
+
 
 main{
     background-color: yellow;
