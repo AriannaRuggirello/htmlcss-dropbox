@@ -101,8 +101,7 @@ li{
 
 .single-plan span{
     /* width: 100%; */
-    text-align: center;
-    
+    text-align: center;   
 
 }
 
@@ -110,7 +109,44 @@ li{
     color: grey;
 }
 
+/* partner section */
+.partner{
+    height: 400px;
+    margin: 80px 0;
+    display: flex;   
+    
+}
 
+.partner img{
+    max-width: 100%;
+    padding-right: 30px;
+}
+
+.white-button{
+    background-color: white;
+}
+
+/* dropbox business section */
+
+.funcitonability{ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.funcitonability ul{
+width: calc( (100%/3) - 20px);
+margin: 0 10px;
+padding: 30px 20px;
+}
+
+.funcitonability img{
+    max-width: 100%;
+}
+
+.funcitonability h3{
+    margin: 20px 0;
+}
 
 
 /* footer rules */
@@ -128,7 +164,7 @@ footer{
     line-height: 30px;
 }
 
-.footer-col h2,a,span{
+.footer-col h2,a{
     color: white;
 }
 
@@ -139,6 +175,7 @@ footer{
 .footer-col span{
     border-top: 1px solid white;
     padding-top: 20px;
+    color: white;
 }
 
 
