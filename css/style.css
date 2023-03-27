@@ -4,16 +4,42 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 
+button{
+    padding: 5px;
+}
 
+/* header rules */
 
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-left,.nav-right{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.blue-button{
+    background-color: blue;
+    color: white;
+    border-style: none;
+}
 
 
 /* debug rules */
-header{
+/* header{
     background-color: blueviolet;
-    height: 50px;
-}
+} */
 
 .hero{
     background-color: aqua;
