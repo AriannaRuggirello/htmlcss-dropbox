@@ -143,6 +143,11 @@ h1{
     line-height: 50px;   
 }
 
+.checkbox{
+    margin-right: 30px;
+}
+
+/* price columns */
 .price-row{
     display: flex;
     justify-content: space-between;
@@ -215,7 +220,6 @@ li a{
 
 .tab-info{
     width: 70%;
-    /* line-height: 30px; */
 }
 
 .tab-info span{
@@ -287,7 +291,7 @@ li a{
 }
 
 .overflow{
-    padding-left: 20px;
+    padding:0 20px;
     overflow: auto;
 }
 
@@ -318,6 +322,7 @@ li a{
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+    filter: invert(100%);
 }
 .green{
     background-color: #A2D39B;
@@ -400,8 +405,8 @@ footer{
     border-bottom: 1px solid darkgray;
     
 }
-/* 
-.faq:hover .panel{
+
+.answer:hover .panel{
     display: inline-block;
 }
 
@@ -412,15 +417,6 @@ footer{
     left: 0;
     display: none;
     z-index: 10;
-} */
+}
 
 
-/* debug rules */
-
-/* header{
-    background-color: blueviolet;
-} */
-/* 
-.price-row{
-    background-color: blueviolet;
-} */
