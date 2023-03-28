@@ -32,6 +32,11 @@ header a{
     color: black;
 }
 
+header a:hover{
+    color: #0093CE;
+    text-decoration: underline;
+}
+
 .nav-left,.nav-right{
    display: flex;
    align-items: center;
@@ -96,8 +101,7 @@ h1{
 
 .price-col{    
     min-height: 850px;
-    width: calc((100%/3) - 20px);
-    margin: 0 10px;    
+    width: calc((100%/3) - 20px);   
     border: 1px solid grey;    
     line-height: 30px;      
 }
@@ -161,7 +165,7 @@ li a{
 }
 
 .tab-info{
-    width: calc(100%/2);
+    width: 70%;
     /* line-height: 30px; */
 }
 
@@ -312,13 +316,15 @@ footer{
     line-height: 30px;
 }
 
-.footer-col h2,a{
+.footer-col h2{
     color: white;
     text-decoration: none;
+    padding-bottom: 20px;
 }
 
-.footer-col h2{
-    padding-bottom: 20px;
+.footer-col a{
+    color: white;
+    text-decoration: none;
 }
 
 .footer-col span{
@@ -343,7 +349,21 @@ footer{
     align-items: center;
     padding: 20px 0;   
     border-bottom: 1px solid darkgray;
+    
 }
+/* 
+.faq:hover .panel{
+    display: inline-block;
+}
+
+.panel{
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 10;
+} */
 
 
 /* debug rules */
