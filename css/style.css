@@ -64,13 +64,11 @@ h1{
 
 .hero-row{    
     display: flex;
-    justify-content: space-between;  
-    
+    justify-content: space-between;     
 }
 
 .hero-info{
-    width: 50%;  
-    
+    width: 50%;     
 }
 
 .hero-info span{
@@ -91,13 +89,13 @@ h1{
     line-height: 50px;   
 }
 
-.price-row{  
+.price-row{
     display: flex;
     justify-content: space-between;
 }
 
 .price-col{    
-    height: 850px;
+    min-height: 850px;
     width: calc((100%/3) - 20px);
     margin: 0 10px;    
     border: 1px solid grey;    
@@ -135,7 +133,7 @@ li a{
     color: #0093CE;
 }
 
-.fa-user,.fa-folder,.fa-share-nodes,.fa-check{
+.fa-user,.fa-folder,.fa-share-nodes,.fa-check,.fa-building,.fa-people-group{
     padding-right: 5px;
 }
 
@@ -146,6 +144,32 @@ li a{
 .center{
     width: 100%;
 }
+
+.tab-header{
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.tab-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid grey;
+    padding: 30px;
+}
+
+.tab-info{
+    width: calc(100%/2);
+    /* line-height: 30px; */
+}
+
+.tab-info span{
+    font-weight: bold;
+    padding: 50px 0;   
+}
+
 
 /* partner section */
 .partner{
