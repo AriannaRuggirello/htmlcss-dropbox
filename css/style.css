@@ -145,6 +145,7 @@ h1{
 }
 
 /* price section */
+
 .price-intro{
     padding: 50px 0;
     line-height: 50px;   
@@ -182,6 +183,7 @@ li a{
     display: block;
     text-align: center;  
 }
+
 .plan{   
     padding: 20px 20px;
 }
@@ -234,13 +236,11 @@ li a{
     padding: 50px 0;   
 }
 
-
 /* partner section */
 .partner{
     height: 400px;
     margin: 80px 0;
-    display: flex;   
-    
+    display: flex;     
 }
 
 .partner img{
@@ -280,8 +280,7 @@ li a{
 }
 
 .client-intro a{
-    color: black;
-    
+    color: black;    
 }
 
 .client-row{
@@ -302,7 +301,7 @@ li a{
     overflow: auto;
 }
 
-.overflow > img{
+.overflow  img{
     width: 125px;
 }
 
@@ -331,6 +330,7 @@ li a{
     transform: translate(-50%, -50%);
     filter: invert(100%);
 }
+
 .green{
     background-color: #A2D39B;
 }
@@ -364,6 +364,7 @@ li a{
 }
 
 /* faq section */
+
 .faq-section{
     padding: 70px 0;
 }
@@ -386,6 +387,7 @@ li a{
 .faq:hover{
     height: 200px;
 }
+
 .answer:hover .panel{
     display: inline-block;
 }
@@ -400,6 +402,7 @@ li a{
 }
 
 /* footer rules */
+
 footer{
     background-color: black;
 }
