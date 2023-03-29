@@ -17,6 +17,55 @@ button{
     margin: 0 auto;
 }
 
+/* dropdown header and faq section rules */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a,p{
+    background-color: white;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.answer{
+    margin-top: 100px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.droplink {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:#0093CE ;
+}
+
 /* header rules */
 
 header{
@@ -59,49 +108,7 @@ header a:hover{
 .fa-arrow-down{
     padding: 20px 0;
     font-size: 30px;
-}
-
-/* dropdown menu rules */
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-
-  .dropdown-content a {
-    background-color: white;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-  .droplink {
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-
-    .dropdown-content a:hover {
-        background-color: white;
-    }
-
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-
-    .dropdown:hover .dropbtn {
-        background-color:#0093CE ;
-    }
-  
+} 
 
 /* hero rules */
 .hero{
@@ -355,6 +362,43 @@ li a{
 .yellow{
     background-color: yellow;
 }
+
+/* faq section */
+.faq-section{
+    padding: 70px 0;
+}
+
+.faq-section h2{
+    padding-bottom: 40px;
+    border-bottom: 1px solid darkgray;
+}
+
+.faq{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;   
+    border-bottom: 1px solid darkgray;  
+    transition:  height 1s;  
+}
+
+.faq:hover{
+    height: 200px;
+}
+.answer:hover .panel{
+    display: inline-block;
+}
+
+.panel{
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 10;
+}
+
 /* footer rules */
 footer{
     background-color: black;
@@ -387,36 +431,6 @@ footer{
     color: white;
 }
 
-/* faq section */
-.faq-section{
-    padding: 70px 0;
-}
 
-.faq-section h2{
-    padding-bottom: 40px;
-    border-bottom: 1px solid darkgray;
-}
-
-.faq{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;   
-    border-bottom: 1px solid darkgray;
-    
-}
-
-.answer:hover .panel{
-    display: inline-block;
-}
-
-.panel{
-    width:100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-    z-index: 10;
-}
 
 
